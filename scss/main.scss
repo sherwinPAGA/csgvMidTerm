@@ -1,0 +1,25 @@
+// 1. Bootstrap import (correct if using node_modules)
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// 2. Custom variables (must come before other custom imports)
+@import "variables";
+
+// 3. Custom components (ensure these files exist)
+@import "buttons";
+@import "forms";
+@import "team";
+@import "customizations";
+@import "service-cards";
+@import "case-studies";
+
+// 4. Global styles
+body {
+  font-family: $font-family-base;
+}
+
+// 5. Media queries
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+}

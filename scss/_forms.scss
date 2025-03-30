@@ -1,0 +1,15 @@
+// scss/_forms.scss
+.form-control {
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+
+  &:focus {
+    border-color: $blue-dark;
+    box-shadow: 0 0 0 0.2rem rgba(29, 53, 87, 0.25);
+  }
+}
+
+.form-label {
+  font-weight: 500;
+  color: $blue-dark;
+}

@@ -1,0 +1,31 @@
+$theme-colors: (
+  "primary": #1d3557,
+  "secondary": #457b9d,
+  "success": #a8dadc,
+  "info": #f1faee,
+  "warning": #e63946,
+  "danger": #e63946,
+  "light": #f8f9fa,
+  "dark": #1d3557,
+);
+
+// Custom color variations
+$blue-dark: #1d3557;
+$blue-medium: #457b9d;
+$blue-light: #a8dadc;
+
+// Override Bootstrap defaults
+$body-bg: #ffffff;
+$body-color: #333333;
+
+// Typography
+$font-family-base: "Roboto", sans-serif;
+$headings-font-family: "Montserrat", sans-serif;
+
+// Buttons
+$btn-border-radius: 0.5rem;
+$btn-transition: all 0.3s ease;
+
+// Form inputs
+$input-focus-border-color: $blue-dark;
+$input-focus-box-shadow: 0 0 0 0.2rem rgba(29, 53, 87, 0.25);

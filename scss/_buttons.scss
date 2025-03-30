@@ -1,0 +1,18 @@
+.btn {
+  transition: $btn-transition;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &.btn-primary {
+    background-color: $blue-dark;
+    border-color: $blue-dark;
+
+    &:hover {
+      background-color: darken($blue-dark, 10%);
+      border-color: darken($blue-dark, 10%);
+    }
+  }
+}
