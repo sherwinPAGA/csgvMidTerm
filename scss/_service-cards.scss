@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background: $primary; // Using your theme color
+    background: $primary2;
     transform: scaleX(0);
     transition: transform 0.3s ease;
     z-index: 1;
@@ -21,7 +21,7 @@
 
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba($primary, 0.1);
+    box-shadow: 0 15px 30px rgba($primary2, 0.1);
 
     &::before {
       transform: scaleX(1);
