@@ -1,6 +1,7 @@
+$primary: #1d3557;
 // 1. Bootstrap import (correct if using node_modules)
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+@import "../node_modules/bootstrap/scss/functions";
 // 2. Custom variables (must come before other custom imports)
 @import "variables";
 
@@ -12,6 +13,9 @@
 @import "service-cards";
 @import "case-studies";
 
+/* $theme-colors: (
+  "primary": #1d3557,
+); */
 // 4. Global styles
 body {
   font-family: $font-family-base;
