@@ -19,6 +19,8 @@ $primary2: #00c6bc;
 ); */
 // 4. Global styles
 body {
+  overflow-x: hidden;
+  width: 100%;
   font-family: $font-family-base;
 }
 
