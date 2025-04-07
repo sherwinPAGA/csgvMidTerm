@@ -32,9 +32,9 @@ The website follows a conversion-focused, clean aesthetic with balanced visual i
 
 ### Logo
 
-The logo features a stylized bar chart with four vertical bars of varying heights. The bars alternate in color between teal and navy blue.
+The logo features a stylized bar chart with four vertical bars of varying heights. The bars alternate in color between cyan and dark blue.
 
-Running diagonally from the bottom left to the top right is a sharp, zigzagging arrow, also in navy blue. The arrow cuts through the bars, giving a sense of dynamic movement and growth, commonly associated with financial, business, or analytics themes.
+Running diagonally from the bottom left to the top right is a sharp, zigzagging arrow, also in dark blue. The arrow cuts through the bars, giving a sense of dynamic movement and growth, commonly associated with financial, business, or analytics themes.
 
 The overall design conveys progress, upward trends, and data-driven success. It's clean, modern, and likely suited for a business in finance, technology, analytics, or consulting.
 
