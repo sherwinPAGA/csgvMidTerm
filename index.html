@@ -46,168 +46,191 @@
           </div>
         </div>
       </nav>
+      
       <!-- Hero Section -->
       <section class="hero-section py-5 bg-light">
         <div class="container py-5">
-          <div class="row align-items-center">
-            <div class="col-lg-2 text-center">
-              <img src="assets/HERO-IMG.jpg" alt="GrowthHackers Logo" style="height: 400px; width: 400px;">
+          <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <!-- Image Column -->
+            <div class="col-lg-6 col-12 text-center mt-4 mt-lg-0">
+              <img src="assets/HERO-IMG.jpg" alt="GrowthHackers Logo" 
+                   class="img-fluid" 
+                   style="max-height: 400px; width: auto;">
             </div>
             
-            <div class="col-lg-8 ms-auto text-center">
-              <h1 class="display-4 fw-bold mb-3">Grow Your Brand</h1>
-              <h2 class="h3 mb-4">Innovative Digital Marketing Solutions</h2>
-              <p class="lead mb-5">
-                At GrowthHackers, we turbocharge your brand's digital presence
-                with data-driven strategies that deliver explosive growth. We strive
-                to make your digital presence known.
-              </p>
-              <a href="about.html" class="btn btn-primary btn-lg px-4">Learn More</a>
+            <!-- Content Column -->
+            <div class="col-lg-6 col-12">
+              <div class="text-center text-lg-center px-3 px-lg-0">
+                <h1 class="display-4 fw-bold mb-3">Grow Your Brand</h1>
+                <h2 class="h3 mb-4">Innovative Digital Marketing Solutions</h2>
+                <p class="lead mb-5">
+                  At GrowthHackers, we turbocharge your brand's digital presence
+                  with data-driven strategies that deliver explosive growth. We strive
+                  to make your digital presence known.
+                </p>
+                <div class="d-flex justify-content-center justify-content-lg-center">
+                  <a href="about.html" class="btn btn-primary btn-lg px-4">Learn More</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
       </section>
 
       <div class="divider"></div>
 
-<!-- Services Section -->
-<section id="services" class="services-section py-5 bg-light">
-  <div class="container py-5">
-    <h1 class="text-center mb-5 fw-bold">Powering Your Digital Success</h1>
-    <div class="row g-4">
-      <!-- SEO Service -->
-      <div class="col-md-4">
-        <div class="service-card card h-100 border-0 shadow-sm">
-          <div class="card-body p-4 text-center">
-            <div class="service-icon mb-4">
-              <img src="assets/ICONS/seo.png" alt="SEO Icon" class="img-fluid" style="width: 60px;">
+      <!-- Services Section - Enhanced with flexbox -->
+      <section id="services" class="services-section py-5 bg-light">
+        <div class="container py-5">
+          <h1 class="text-center mb-5 fw-bold">Powering Your Digital Success</h1>
+          <div class="row g-4 justify-content-center">
+            <!-- SEO Service -->
+            <div class="col-lg-4 col-md-6 d-flex">
+              <div class="service-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4 text-center d-flex flex-column">
+                  <div class="service-icon mb-4 flex-shrink-0">
+                    <img src="assets/ICONS/seo.png" alt="SEO Icon" class="img-fluid" style="width: 60px;">
+                  </div>
+                  <h3 class="h4 mb-3">SEO Optimization</h3>
+                  <p class="mb-0 flex-grow-1">
+                    Boost your search rankings and organic traffic with our comprehensive search engine optimization strategies.
+                  </p>
+                </div>
+              </div>
             </div>
-            <h3 class="h4 mb-3">SEO Optimization</h3>
-            <p class="mb-0">
-              Boost your search rankings and organic traffic with our comprehensive search engine optimization strategies.
-            </p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Social Media Service -->
-      <div class="col-md-4">
-        <div class="service-card card h-100 border-0 shadow-sm">
-          <div class="card-body p-4 text-center">
-            <div class="service-icon mb-4">
-              <img src="assets/ICONS/social-media.png" alt="Social Media Icon" class="img-fluid" style="width: 60px;">
+            <!-- Social Media Service -->
+            <div class="col-lg-4 col-md-6 d-flex">
+              <div class="service-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4 text-center d-flex flex-column">
+                  <div class="service-icon mb-4 flex-shrink-0">
+                    <img src="assets/ICONS/social-media.png" alt="Social Media Icon" class="img-fluid" style="width: 60px;">
+                  </div>
+                  <h3 class="h4 mb-3">Social Media</h3>
+                  <p class="mb-0 flex-grow-1">
+                    Engage your audience and build brand loyalty through targeted social media campaigns and content strategies.
+                  </p>
+                </div>
+              </div>
             </div>
-            <h3 class="h4 mb-3">Social Media</h3>
-            <p class="mb-0">
-              Engage your audience and build brand loyalty through targeted social media campaigns and content strategies.
-            </p>
-          </div>
-        </div>
-      </div>
 
-      <!-- PPC Service -->
-      <div class="col-md-4">
-        <div class="service-card card h-100 border-0 shadow-sm">
-          <div class="card-body p-4 text-center">
-            <div class="service-icon mb-4">
-              <img src="assets/ICONS/advertisements.png" alt="PPC Icon" class="img-fluid" style="width: 60px;">
+            <!-- PPC Service -->
+            <div class="col-lg-4 col-md-6 d-flex">
+              <div class="service-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4 text-center d-flex flex-column">
+                  <div class="service-icon mb-4 flex-shrink-0">
+                    <img src="assets/ICONS/advertisements.png" alt="PPC Icon" class="img-fluid" style="width: 60px;">
+                  </div>
+                  <h3 class="h4 mb-3">Pay-Per-Click Ads</h3>
+                  <p class="mb-0 flex-grow-1">
+                    Drive immediate results with precisely targeted advertising campaigns that maximize your ROI.
+                  </p>
+                </div>
+              </div>
             </div>
-            <h3 class="h4 mb-3">Pay-Per-Click Ads</h3>
-            <p class="mb-0">
-              Drive immediate results with precisely targeted advertising campaigns that maximize your ROI.
-            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <div class="divider"></div>
 
       <!-- Case Studies Section -->
 <section class="case-studies-section py-5 bg-light">
-  <div class="container py-5">
-    <div class="row g-4 align-items-center">
-      <!-- Title on the left -->
-      <div class="col-lg-7 text-center">
-        <h2 class="display-5 fw-bold mb-4">Our Case Studies</h2>
+    <div class="container py-5">
+      <!-- Mobile heading -->
+      <div class="d-lg-none text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Our Case Studies</h2>
         <p class="lead">Real results that demonstrate our data-driven approach to digital growth.</p>
-        <div class="my-5 mx-5">
-          <img src="assets/TESTIM-IMG.png" alt="Success Icon" class="img-fluid" style="max-height: 185px;">
-        </div>
-        <a href="https://digitaldefynd.com/IQ/digital-marketing-case-studies/" class="btn btn-primary mt-3">See More Success Stories</a>
       </div>
-      
-      <!-- Cards on the right -->
-      <div class="col-lg-5">
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-12">
-            <div class="case-study-card card h-100 border-0 shadow-sm">
-              <div class="card-body p-4">
-                <div class="d-flex align-items-start">
-                  <div class="case-study-icon me-4">
-                    <img src="assets/ICONS/targeted.png" alt="E-commerce" class="img-fluid" width="40">
-                  </div>
-                  <div>
-                    <h5 class="card-title mb-2">E-commerce Growth</h5>
-                    <h6 class="card-subtitle mb-3 text-primary">Luxury Fashion Brand</h6>
-                    <p class="card-text mb-0">Increased online sales by 150% in 6 months through targeted PPC and SEO strategies.</p>
+  
+      <div class="row g-5 flex-lg-row">
+        <!-- Content Column -->
+        <div class="col-lg-5 d-none d-lg-block pe-lg-5"> 
+          <div class="text-lg-center">
+            <h2 class="display-5 fw-bold mb-4">Our Case Studies</h2>
+            <p class="lead mb-4">Real results that demonstrate our data-driven approach to digital growth.</p>
+            <div class="my-4">
+              <img src="assets/TESTIM-IMG.png" alt="Success Icon" class="img-fluid" style="max-height: 185px;">
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="https://digitaldefynd.com/IQ/digital-marketing-case-studies/" class="btn btn-primary">See More Success Stories</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cards Column -->
+        <div class="col-lg-7 ps-lg-5">
+          <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-12 d-flex">
+              <div class="case-study-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start">
+                    <div class="case-study-icon me-4 flex-shrink-0">
+                      <img src="assets/ICONS/targeted.png" alt="E-commerce" class="img-fluid" width="40">
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">E-commerce Growth</h5>
+                      <h6 class="card-subtitle mb-3 text-primary">Luxury Fashion Brand</h6>
+                      <p class="card-text mb-0">Increased online sales by 150% in 6 months through targeted PPC and SEO strategies.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          
-          <!-- Card 2 -->
-          <div class="col-12">
-            <div class="case-study-card card h-100 border-0 shadow-sm">
-              <div class="card-body p-4">
-                <div class="d-flex align-items-start">
-                  <div class="case-study-icon me-4">
-                    <img src="assets/ICONS/strategy-development.png" alt="B2B" class="img-fluid" width="40">
-                  </div>
-                  <div>
-                    <h5 class="card-title mb-2">B2B Lead Generation</h5>
-                    <h6 class="card-subtitle mb-3 text-primary">SaaS Company</h6>
-                    <p class="card-text mb-0">Generated 200 qualified leads through LinkedIn campaigns and content marketing.</p>
+            
+            <!-- Card 2 -->
+            <div class="col-12 d-flex">
+              <div class="case-study-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start">
+                    <div class="case-study-icon me-4 flex-shrink-0">
+                      <img src="assets/ICONS/strategy-development.png" alt="B2B" class="img-fluid" width="40">
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">B2B Lead Generation</h5>
+                      <h6 class="card-subtitle mb-3 text-primary">SaaS Company</h6>
+                      <p class="card-text mb-0">Generated 200 qualified leads through LinkedIn campaigns and content marketing.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          
-          <!-- Card 3 -->
-          <div class="col-12">
-            <div class="case-study-card card h-100 border-0 shadow-sm">
-              <div class="card-body p-4">
-                <div class="d-flex align-items-start">
-                  <div class="case-study-icon me-4">
-                    <img src="assets/ICONS/influencer.png" alt="Brand Awareness" class="img-fluid" width="40">
-                  </div>
-                  <div>
-                    <h5 class="card-title mb-2">Brand Awareness</h5>
-                    <h6 class="card-subtitle mb-3 text-primary">Content Creation</h6>
-                    <p class="card-text mb-0">Increased social media engagement by 300% through viral content strategy.</p>
+            
+            <!-- Card 3 -->
+            <div class="col-12 d-flex">
+              <div class="case-study-card card h-100 border-0 shadow-sm flex-grow-1">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start">
+                    <div class="case-study-icon me-4 flex-shrink-0">
+                      <img src="assets/ICONS/influencer.png" alt="Brand Awareness" class="img-fluid" width="40">
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">Brand Awareness</h5>
+                      <h6 class="card-subtitle mb-3 text-primary">Content Creation</h6>
+                      <p class="card-text mb-0">Increased social media engagement by 300% through viral content strategy.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+  
+      <!-- Mobile button -->
+      <div class="d-lg-none text-center mt-5">
+        <a href="#" class="btn btn-primary">See More Success Stories</a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
       <!-- Footer -->
       <footer class="bg-primary text-white py-3">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center flex-column flex-md-row">
             <!-- Left Side -->
-            <div class="col-md-4 d-flex align-items-center mb-2 mb-md-0">
+            <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start mb-3 mb-md-0">
               <img src="assets/img/LOGO-1-NO-NAME.jpg" 
                    alt="GrowthHackers Logo" 
                    class="rounded-circle me-2" 
@@ -216,15 +239,15 @@
             </div>
             
             <!-- Center -->
-            <div class="col-md-4 text-center my-2 my-md-0">
+            <div class="col-md-4 d-flex justify-content-center my-2 my-md-0">
               <a href="#top" class="btn btn-sm btn-outline-light rounded-pill px-3">
                 <i class="fas fa-arrow-up me-1"></i> Back to Top
               </a>
             </div>
 
             <!-- Right Side -->
-            <div class="col-md-4 text-center text-md-end">
-              <div class="d-inline-flex align-items-center">
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+              <div class="d-flex flex-wrap justify-content-center">
                 <a href="https://longdogechallenge.com/" class="text-white-50 small me-3 hover-text-white">Privacy Policy</a>
                 <a href="http://endless.horse/" class="text-white-50 small hover-text-white">Terms of Service</a>
               </div>
@@ -232,7 +255,6 @@
           </div>
         </div>
       </footer>
-
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
