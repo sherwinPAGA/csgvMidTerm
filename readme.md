@@ -1,9 +1,7 @@
 # Digital Marketing Agency
 
 **GrowthHackers**
-![Alt Text](assets/img/prev1.jpg)
-![Alt Text](assets/img/prev2.jpg)
-![Alt Text](assets/img/prev3.jpg)
+
 
 ## Project Summary
 
