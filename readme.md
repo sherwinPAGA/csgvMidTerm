@@ -1,6 +1,6 @@
 # Digital Marketing Agency
 
-# GrowthHackers
+**GrowthHackers**
 
 ## Project Summary
 
@@ -11,7 +11,12 @@ The platform effectively bridges the gap between potential clients and the agenc
 ## Design Choices
 
 ### Wireframe & Layout
-
+**Landing Page**
+![Alt Text](https://github.com/sherwinPAGA/csgvMidTerm/blob/0f47760cf12896e8d4389cabddde50a320bad8fa/assets/wireframes/LANDING%20PAGE.png)
+**About Us Page**
+![Alt Text](https://github.com/sherwinPAGA/csgvMidTerm/blob/0f47760cf12896e8d4389cabddde50a320bad8fa/assets/wireframes/ABOUT%20PAGE.png)
+**Contact Us Page**
+![Alt Text](https://github.com/sherwinPAGA/csgvMidTerm/blob/0f47760cf12896e8d4389cabddde50a320bad8fa/assets/wireframes/CONTACT%20PAGE.png)
 The website follows a conversion-focused, clean aesthetic with balanced visual impact and data-driven content:
 
 1. **Homepage Structure**:
@@ -31,7 +36,7 @@ The website follows a conversion-focused, clean aesthetic with balanced visual i
    - Strategic white space between sections
 
 ### Logo
-
+![Alt Text](assets/img/LOGO-1-NO-NAME.jpg)
 The logo features a stylized bar chart with four vertical bars of varying heights. The bars alternate in color between cyan and dark blue.
 
 Running diagonally from the bottom left to the top right is a sharp, zigzagging arrow, also in dark blue. The arrow cuts through the bars, giving a sense of dynamic movement and growth, commonly associated with financial, business, or analytics themes.
@@ -39,7 +44,7 @@ Running diagonally from the bottom left to the top right is a sharp, zigzagging 
 The overall design conveys progress, upward trends, and data-driven success. It's clean, modern, and likely suited for a business in finance, technology, analytics, or consulting.
 
 ### Colors
-
+![Alt Text](https://github.com/sherwinPAGA/csgvMidTerm/blob/0f47760cf12896e8d4389cabddde50a320bad8fa/assets/COLOR%20SCHEME.png)
 - **Primary (White - #ffffff):** Used for backgrounds and text contrast.
 - **Secondary (Dark Blue - #1d3557):** Represents sleekness and exudes professionalism.
 - **Tertiary (Cyan - #00c6bc):** Used for buttons and hover accents to add a little brightness.
