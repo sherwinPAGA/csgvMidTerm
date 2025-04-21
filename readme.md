@@ -38,7 +38,7 @@ The website follows a conversion-focused, clean aesthetic with balanced visual i
 
 ### Logo
 ![Alt Text](assets/img/LOGO-1-NO-NAME.jpg)
-The logo features a stylized bar chart with four vertical bars of varying heights. The bars alternate in color between cyan and dark blue.
+<br>The logo features a stylized bar chart with four vertical bars of varying heights. The bars alternate in color between cyan and dark blue.
 
 Running diagonally from the bottom left to the top right is a sharp, zigzagging arrow, also in dark blue. The arrow cuts through the bars, giving a sense of dynamic movement and growth, commonly associated with financial, business, or analytics themes.
 
